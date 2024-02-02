@@ -1,7 +1,7 @@
 body {
   margin: 0;
   display: flex;
-  padding-top: 70px;
+  min-height:100vh;
   min-width: 320px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
@@ -54,4 +54,22 @@ input {
 
 input:focus {
   border-color: #007bff; /* Border color on focus */
+}
+
+select {
+  padding: 8px 12px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  outline: none; /* Remove outline */
+  transition: border-color 0.2s ease-in-out; /* Smooth transition for border color */
+  background-color: white; /* Background color */
+}
+
+select:focus {
+  border-color: #007bff; /* Border color on focus */
+}
+
+main {
+  width: 100%;
 }

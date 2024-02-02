@@ -9,3 +9,11 @@
 .read-the-docs {
   color: #888;
 }
+
+.page-con {
+  margin: auto;
+  width: 100vw;
+  height: 80vw;
+  display: flex;
+  padding-top: 80px;
+}
