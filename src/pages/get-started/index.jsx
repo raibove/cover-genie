@@ -39,9 +39,9 @@ const GetStarted = (props)=>{
 
     
   const handleSelectChange = (event) => {
-    const postId = event.target.value;
-    setSelectedPost(postId)
-    console.log('<< called', postId)
+    const postIndex = event.target.value;
+    setSelectedPost(posts[postIndex])
+    console.log('<< called', postIndex)
   };
 
     return(
@@ -56,9 +56,9 @@ const GetStarted = (props)=>{
                     <div>
                     <h3>Select content comes here</h3>
                     <select onChange={handleSelectChange} value={selectedPost}>
-                    <option value="">Select a Post</option>
-                    {posts.map((post) => (
-                      <option key={post?.node?.id} value={post?.node?.id}>
+                    {/* <option value="">Select a Post</option> */}
+                    {posts.map((post, index) => (
+                      <option key={post?.node?.id} value={index}>
                         {post?.node?.title}
                       </option>
                     ))}
