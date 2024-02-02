@@ -1,0 +1,30 @@
+/* 
+.button{
+    cursor: pointer;
+    width: 250px;
+    height: 55px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    background: #f7bf31;
+    transition: transform 0.1s ease;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button-image{
+    width: 32px;
+    margin: 0 25px ;
+}
+
+.button:hover {
+    transform: translate(-8px, -8px);
+}
+
+@media only screen and (max-width: 550px) {
+    .button{
+        width: 220px;
+        height: 55px;
+        font-size: 18px;
+    }
+} */

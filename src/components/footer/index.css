@@ -1,0 +1,19 @@
+.footer-text{
+    background-color: wheat;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.footer{
+    width: 100vw;
+    bottom: 0;
+    position: absolute;
+}
+.footer-link{
+    text-decoration: none;
+    font-weight: 750;
+    color: blue;
+}
